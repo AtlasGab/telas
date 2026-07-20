@@ -1,0 +1,75 @@
+7. Tela de Empréstimo
+
+Objetivo: Registrar empréstimos de materiais permanentes e ferramentas.
+
+Elementos necessários:
+
+Seleção do material;
+Nome do usuário;
+Matrícula;
+Data do empréstimo;
+Data prevista para devolução;
+Botão para registrar o empréstimo.
+8. Tela de Devolução
+
+Objetivo: Registrar a devolução de materiais emprestados.
+
+Elementos necessários:
+
+Lista de empréstimos em aberto;
+Seleção do empréstimo;
+Data da devolução;
+Botão para confirmar a devolução.
+9. Tela de Histórico de Movimentações
+
+Objetivo: Consultar todas as movimentações realizadas no sistema.
+
+Elementos necessários:
+
+Filtros por período, usuário, material e tipo de movimentação;
+Lista contendo:
+Data;
+Material;
+Tipo da movimentação;
+Quantidade;
+Usuário responsável;
+Setor.
+10. Tela de Relatórios
+
+Objetivo: Emitir relatórios gerenciais.
+
+Elementos necessários:
+
+Filtro por período;
+Filtro por setor;
+Filtro por categoria;
+Filtro por material;
+Relatório de consumo por período;
+Relatório de consumo por setor;
+Relatório de estoque crítico;
+Relatório de movimentações;
+Opção de exportação em PDF e Excel.
+11. Tela de Gerenciamento de Usuários
+
+Objetivo: Administrar os usuários do sistema.
+
+Elementos necessários:
+
+Nome;
+Matrícula;
+Tipo de usuário (Administrador, Professor, Técnico ou Aluno);
+Login;
+Senha;
+Botões para cadastrar, editar e excluir usuários.
+Estrutura de Navegação
+Login
+Dashboard
+Consulta de Estoque
+Cadastro de Material
+Entrada de Material
+Retirada de Material
+Empréstimos
+Devoluções
+Histórico de Movimentações
+Relatórios
+Gerenciamento de Usuários
