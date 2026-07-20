@@ -1,0 +1,317 @@
+/*==================================
+        CORES DO SISTEMA
+==================================*/
+:root{
+    --roxo:#2b004f;
+    --roxo-hover:#1a0033;
+    --roxo-claro:#693daf;
+    --preto:#00040a;
+    --branco:#ffffff;
+}
+
+
+/*==================================
+            GERAL
+==================================*/
+*{
+    box-sizing:border-box;
+}
+
+body{
+    min-height:100vh;
+
+    background:linear-gradient(
+        135deg,
+        var(--preto),
+        var(--roxo-claro)
+    );
+
+    font-family:
+    "Segoe UI",
+    Tahoma,
+    Geneva,
+    Verdana,
+    sans-serif;
+}
+
+/*==================================
+            LOGIN
+==================================*/
+.login-card{
+    max-width:420px;
+
+}
+
+/*==================================
+            BOTÕES
+==================================*/
+.btn-roxo{
+    background-color:var(--roxo);
+    border-color:var(--roxo);
+    color:white;
+    transition:.3s;
+}
+
+
+.btn-roxo:hover{
+    background-color:var(--roxo-hover);
+    border-color:var(--roxo-hover);
+    color:white;
+}
+
+
+/*==================================
+            NAVBAR
+==================================*/
+.navbar{
+    height:56px;
+}
+
+.navbar-brand{
+    color:var(--roxo)!important;
+}
+
+
+.nav-link{
+    color:#555;
+}
+
+
+.nav-link:hover{
+    color:var(--roxo);
+}
+
+
+/*==================================
+            SIDEBAR
+==================================*/
+.sidebar{
+
+    background:var(--roxo);
+
+    min-height:calc(100vh - 56px);
+
+}
+
+
+.sidebar h5{
+
+    font-weight:bold;
+
+}
+
+
+.sidebar hr{
+
+    opacity:.3;
+
+}
+
+
+.sidebar .nav-link{
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    transition:.3s;
+
+}
+
+
+.sidebar .nav-link:hover{
+
+    background:var(--roxo-hover);
+
+    color:white;
+
+}
+
+
+.sidebar .nav-link.active{
+
+    background:white;
+
+    color:var(--roxo)!important;
+
+    font-weight:bold;
+
+}
+
+
+
+/*==================================
+        CONTEÚDO DAS PÁGINAS
+==================================*/
+
+
+main{
+
+    min-height:calc(100vh - 56px);
+
+}
+
+
+main h2{
+
+    color:white;
+
+    font-weight:bold;
+
+}
+
+
+
+/*==================================
+            CARDS
+==================================*/
+
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+}
+
+
+.card-header{
+
+    border-radius:18px 18px 0 0!important;
+
+}
+
+
+
+/*==================================
+            FORMULÁRIOS
+==================================*/
+
+
+.form-control,
+.form-select{
+
+    border-radius:12px;
+
+}
+
+
+.form-control:focus,
+.form-select:focus{
+    border-color:var(--roxo);
+
+    box-shadow:
+    0 0 0 .25rem rgba(43,0,79,.20);
+}
+
+
+/*==================================
+            TABELAS
+==================================*/
+.table{
+    vertical-align:middle;
+
+}
+
+
+.table thead{
+    background:var(--roxo);
+
+    color:white;
+
+}
+
+
+.table-hover tbody tr:hover{
+    background:#f4edff;
+
+}
+
+
+
+/*==================================
+            PAGINAÇÃO
+==================================*/
+.page-link{
+    color:var(--roxo);
+
+}
+
+
+.page-item.active .page-link{
+    background:var(--roxo);
+    border-color:var(--roxo);
+
+}
+
+
+
+/*==================================
+            LISTAS
+==================================*/
+.list-group-item{
+    border:none;
+    border-bottom:1px solid #eee;
+
+}
+
+
+
+/*==================================
+        BOTÕES DE AÇÃO
+==================================*/
+.action-buttons .btn{
+    margin-right:5px;
+}
+
+
+
+/*==================================
+            BADGES
+==================================*/
+.badge{
+    padding:8px 12px;
+    border-radius:20px;
+
+}
+
+
+
+/*==================================
+        SOMBRAS
+==================================*/
+.shadow-system{
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.25);
+
+}
+
+
+/*==================================
+        RESPONSIVO
+==================================*/
+@media(max-width:992px){
+  
+    .sidebar{
+        min-height:auto;
+    }
+}
+
+
+@media(max-width:768px){
+
+
+    .table{
+        font-size:14px;
+    }
+
+
+    .btn{
+        margin-bottom:8px;
+    }
+
+
+}
